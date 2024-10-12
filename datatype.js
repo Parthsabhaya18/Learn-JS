@@ -1,27 +1,25 @@
-            //Data-type Primitive
-let fullname = "parth sabhaya"; //string
-let age=45;                     //number
-isFollow=true;                  //boolean
-let x=BigInt("45");             //BigInt
-let y=Symbol("Hello!!");        //Symbol
-let a;                          //undefined
-let b= null;                    //null
-document.write(fullname); // in web page shown
-console.log(fullname);
-console.log(age);
-console.log(isFollow);
-console.log(x);
-console.log(y);
-console.log(a);
-console.log(b);
-
-            //variable(var,let,const) mostly used let and const after 2015 
-let sample=10;
-sample=90;
-const fix=67;
-console.log(sample);
-console.log(fix);
+//--> var is a declare and intialization are re declare and re-intilization .
+var a;  //declare
+a=10;  //intialization
+a="parth"; //re-Intilization
+var a="Hi"; //re-declare
+console.log("Value of a: "+a);
 
 
+//--> let is a declare and intialization are only re-intilization .
+let b; //declare
+b=10;  //intialization
+b="Sabhaya";  //re-intialization
+// let b;  //can not re declare
+console.log("Value of b: "+b);
+
+
+//--> let is a declare and intialization are can not re-intialization and re-eclare. .
+
+const c=20;  //declare and intialization
+// c=10;   // cant not re-intialization
+// const c=true;  // cant not declare
+// c="surat";
+console.log("Value of c: "+c);
 
 
