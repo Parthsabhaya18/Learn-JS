@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            height: 280px;
+            width: 300px;
+            background-color: aquamarine;
+            display: grid;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 10px 10px grey;
+        }
+        .login{
+            height: 100vh;
+            width: 100wh;
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(white,grey,skyblue);
+        }
+        form label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        form input{
+            height: 35px;
+            border: none;
+            padding-left: 10px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        button{
+            height: 35px;
+        }
+        form img{
+            height: 30px;
+            position: relative;
+            bottom: 100px;
+            left: 265px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form action="">
+            <label >Username: </label>
+            <input id="uname" type="text" placeholder="Enter the Username">
+            <label >Password: </label>
+            <input id="pswd" type="password" placeholder="Enter the password">
+            <button onclick="change()">Log In</button>
+            <img onclick="hide()" src="https://static.thenounproject.com/png/4995058-200.png" alt="">
+        </form>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
